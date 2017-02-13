@@ -1,0 +1,18 @@
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\bin\Debug\Trabajador.exe.config
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\bin\Debug\Trabajador.XML
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\bin\Debug\Trabajador.exe
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\bin\Debug\Trabajador.pdb
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\obj\Debug\Trabajador.csprojResolveAssemblyReference.cache
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\obj\Debug\Trabajador.Trabajador.resources
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\obj\Debug\Trabajador.Properties.Resources.resources
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\obj\Debug\Trabajador.csproj.GenerateResource.Cache
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\obj\Debug\Trabajador.exe
+C:\Users\Charly\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\2evaluacion\Tema3\Practica4.1\Trabajador\Trabajador\obj\Debug\Trabajador.pdb
+C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador\Trabajador\bin\Debug\Trabajador.exe.config
+C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador\Trabajador\bin\Debug\Trabajador.XML
+C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador\Trabajador\obj\Debug\Trabajador.exe
+C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador\Trabajador\obj\Debug\Trabajador.pdb
+C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador1\Trabajador\bin\Debug\Trabajador.exe.config
+C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador1\Trabajador\bin\Debug\Trabajador.XML
+C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador1\Trabajador\obj\Debug\Trabajador.exe
+C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador1\Trabajador\obj\Debug\Trabajador.pdb

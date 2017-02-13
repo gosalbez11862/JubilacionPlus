@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Trabajador</name>
+    </assembly>
+    <members>
+        <member name="F:Trabajador.Trabajador.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:Trabajador.Trabajador.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:Trabajador.Trabajador.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="M:Trabajador.Program.Main">
+            <summary>
+            Punto de entrada principal para la aplicación.
+            </summary>
+        </member>
+        <member name="T:Trabajador.documentacion.Trabajador">
+            <summary>
+            <para>Clase que representa a un trabajador de una empresa.</para>
+            <para>Los trabajadores pueden ser de las siguiente secciones:
+            <list type="bullet">
+                <item>
+                    <description>Crear</description>
+                </item>
+                <item>
+                    <description>Jubilacion</description>
+                </item>
+            </list>
+            </para>
+            </summary>
+        </member>
+        <member name="F:Trabajador.documentacion.Trabajador.EdadJubilacionDefecto">
+            <summary>
+            Edad por defecto de jubilación del trabajador
+            </summary>
+        </member>
+        <member name="F:Trabajador.documentacion.Trabajador.nombre">
+            <summary>
+            Nombre y apellidos del trabajador
+            </summary>
+        </member>
+        <member name="F:Trabajador.documentacion.Trabajador.edad">
+            <summary>
+            Edad del trabajador
+            </summary>
+        </member>
+        <member name="P:Trabajador.documentacion.Trabajador.Nombre">
+            <summary>
+            Obtiene y devuelve el nombre y apellidos del trabajador
+            </summary>
+            <value>El nombre y apellidos</value>
+        </member>
+        <member name="P:Trabajador.documentacion.Trabajador.Edad">
+            <summary>
+            Obtiene y devuelve la edad del trabajador.
+            La edad debe estar entre 1 y 150
+            </summary>
+            <value>Edad del trabajador</value>
+        </member>
+        <member name="M:Trabajador.documentacion.Trabajador.CalculoAnyosJubilacion">
+            <summary>
+            Calcula los años que le quedan al trabajador para su jubilación
+            </summary>
+            <remarks>Este método usa sobrecarga</remarks>
+            <returns>Los años que le quedan al trabajador para su jubilación</returns>
+        </member>
+        <member name="M:Trabajador.documentacion.Trabajador.CalculoAnyosJubilacion(System.Int32)">
+            <summary>
+            <para>Calcula los años que le quedan al trabajador para su jubilación. </para>
+            <para>El valor del parámetro <paramref name="edadJubilacion"/> debe ser menor que <see cref="F:Trabajador.documentacion.Trabajador.EdadJubilacionDefecto"/> y mayor o
+            igual que la edad del trabajador</para>
+            </summary>
+            <remarks>Este método usa sobrecarga</remarks>
+            <param name="edadJubilacion">Edad personalizada de jubilación, distinta de la edad por defecto</param>
+            <returns>Los años que le quedan al trabajador para su jubilación</returns>
+        </member>
+        <member name="T:Trabajador.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Trabajador.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Trabajador.Properties.Resources.Culture">
+            <summary>
+              Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+            </summary>
+        </member>
+    </members>
+</doc>
