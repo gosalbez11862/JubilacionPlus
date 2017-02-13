@@ -39,7 +39,7 @@
             // BCrear
             // 
             this.BCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BCrear.Location = new System.Drawing.Point(205, 81);
+            this.BCrear.Location = new System.Drawing.Point(205, 88);
             this.BCrear.Name = "BCrear";
             this.BCrear.Size = new System.Drawing.Size(82, 38);
             this.BCrear.TabIndex = 0;

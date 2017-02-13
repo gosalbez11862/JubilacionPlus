@@ -16,3 +16,11 @@ C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador1\Trabajador\bin\Debug
 C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador1\Trabajador\bin\Debug\Trabajador.XML
 C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador1\Trabajador\obj\Debug\Trabajador.exe
 C:\Users\yo\Desktop\Trabajos\Practica4.2_GitHub\Trabajador1\Trabajador\obj\Debug\Trabajador.pdb
+C:\Users\yo\Desktop\Practica 4.2 Git\JubilacionPlus\bin\Debug\Trabajador.exe.config
+C:\Users\yo\Desktop\Practica 4.2 Git\JubilacionPlus\bin\Debug\Trabajador.XML
+C:\Users\yo\Desktop\Practica 4.2 Git\JubilacionPlus\obj\Debug\Trabajador.exe
+C:\Users\yo\Desktop\Practica 4.2 Git\JubilacionPlus\obj\Debug\Trabajador.pdb
+C:\Users\yo\Desktop\Practica 4.2 Git\JubilacionPlus\obj\Debug\Trabajador.csprojResolveAssemblyReference.cache
+C:\Users\yo\Desktop\Practica 4.2 Git\JubilacionPlus\obj\Debug\Trabajador.Trabajador.resources
+C:\Users\yo\Desktop\Practica 4.2 Git\JubilacionPlus\obj\Debug\Trabajador.Properties.Resources.resources
+C:\Users\yo\Desktop\Practica 4.2 Git\JubilacionPlus\obj\Debug\Trabajador.csproj.GenerateResource.Cache
