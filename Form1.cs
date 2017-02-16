@@ -23,7 +23,7 @@ namespace Trabajador
         private void BCrear_Click(object sender, EventArgs e)
         {
             PrimerTrabajador.Nombre = TName.Text;
-            PrimerTrabajador.Edad = int.Parse(TEdad.Text);
+            PrimerTrabajador.Edad = int.Parse(TupDownEdad.Text);
         }
 
         private void BJubilacion_Click(object sender, EventArgs e)

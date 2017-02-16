@@ -31,9 +31,10 @@
             this.BCrear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.TName = new System.Windows.Forms.TextBox();
-            this.TEdad = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.BJubilacion = new System.Windows.Forms.Button();
+            this.TupDownEdad = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.TupDownEdad)).BeginInit();
             this.SuspendLayout();
             // 
             // BCrear
@@ -65,19 +66,11 @@
             this.TName.Size = new System.Drawing.Size(208, 29);
             this.TName.TabIndex = 2;
             // 
-            // TEdad
-            // 
-            this.TEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TEdad.Location = new System.Drawing.Point(91, 85);
-            this.TEdad.Name = "TEdad";
-            this.TEdad.Size = new System.Drawing.Size(66, 29);
-            this.TEdad.TabIndex = 4;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 88);
+            this.label2.Location = new System.Drawing.Point(12, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 24);
             this.label2.TabIndex = 3;
@@ -86,7 +79,7 @@
             // BJubilacion
             // 
             this.BJubilacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BJubilacion.Location = new System.Drawing.Point(299, 81);
+            this.BJubilacion.Location = new System.Drawing.Point(299, 88);
             this.BJubilacion.Name = "BJubilacion";
             this.BJubilacion.Size = new System.Drawing.Size(114, 38);
             this.BJubilacion.TabIndex = 5;
@@ -94,19 +87,27 @@
             this.BJubilacion.UseVisualStyleBackColor = true;
             this.BJubilacion.Click += new System.EventHandler(this.BJubilacion_Click);
             // 
+            // TupDownEdad
+            // 
+            this.TupDownEdad.Location = new System.Drawing.Point(91, 94);
+            this.TupDownEdad.Name = "TupDownEdad";
+            this.TupDownEdad.Size = new System.Drawing.Size(67, 20);
+            this.TupDownEdad.TabIndex = 6;
+            // 
             // Trabajador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(436, 164);
+            this.Controls.Add(this.TupDownEdad);
             this.Controls.Add(this.BJubilacion);
-            this.Controls.Add(this.TEdad);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BCrear);
             this.Name = "Trabajador";
             this.Text = "Trabajador";
+            ((System.ComponentModel.ISupportInitialize)(this.TupDownEdad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,9 +118,9 @@
         private System.Windows.Forms.Button BCrear;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TName;
-        private System.Windows.Forms.TextBox TEdad;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BJubilacion;
+        private System.Windows.Forms.NumericUpDown TupDownEdad;
     }
 }
 
