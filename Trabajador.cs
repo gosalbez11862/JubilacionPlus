@@ -27,19 +27,34 @@ namespace Trabajador
         private string nombre;
 
         /// <summary>
+        /// Apellidos del trabajador
+        /// </summary>
+        private string apellido;
+
+        /// <summary>
         /// Edad del trabajador
         /// </summary>
         private int edad;
 
         /// <summary>
-        /// Obtiene y devuelve el nombre y apellidos del trabajador
+        /// Obtiene y devuelve el nombre del trabajador
         /// </summary>
-        /// <value>El nombre y apellidos</value>
+        /// <value>El nombre </value>
         public string Nombre
         {
             get { return nombre; }
             set { nombre = value; }
-        }        
+        }
+
+        /// <summary>
+        /// Obtiene y devuelve el apellidos del trabajador
+        /// </summary>
+        /// <value>El apellidos</value>
+        public string Apellido
+        {
+            get { return apellido; }
+            set { apellido = value; }
+        }
 
         /// <summary>
         /// Obtiene y devuelve la edad del trabajador.
