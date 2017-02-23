@@ -26,60 +26,74 @@
             Punto de entrada principal para la aplicación.
             </summary>
         </member>
-        <member name="T:Trabajador.documentacion.Trabajador">
+        <member name="T:Trabajador.Trabajador_Jubilacion">
             <summary>
             <para>Clase que representa a un trabajador de una empresa.</para>
             <para>Los trabajadores pueden ser de las siguiente secciones:
             <list type="bullet">
                 <item>
-                    <description>Crear</description>
+                    <description>Marketing</description>
                 </item>
                 <item>
-                    <description>Jubilacion</description>
+                    <description>Ventas</description>
+                </item>
+                <item>
+                    <description>Logística</description>
                 </item>
             </list>
             </para>
             </summary>
         </member>
-        <member name="F:Trabajador.documentacion.Trabajador.EdadJubilacionDefecto">
+        <member name="F:Trabajador.Trabajador_Jubilacion.EdadJubilacionDefecto">
             <summary>
             Edad por defecto de jubilación del trabajador
             </summary>
         </member>
-        <member name="F:Trabajador.documentacion.Trabajador.nombre">
+        <member name="F:Trabajador.Trabajador_Jubilacion.nombre">
             <summary>
-            Nombre y apellidos del trabajador
+            Nombre del trabajador
             </summary>
         </member>
-        <member name="F:Trabajador.documentacion.Trabajador.edad">
+        <member name="F:Trabajador.Trabajador_Jubilacion.apellido">
+            <summary>
+            Apellidos del trabajador
+            </summary>
+        </member>
+        <member name="F:Trabajador.Trabajador_Jubilacion.edad">
             <summary>
             Edad del trabajador
             </summary>
         </member>
-        <member name="P:Trabajador.documentacion.Trabajador.Nombre">
+        <member name="P:Trabajador.Trabajador_Jubilacion.Nombre">
             <summary>
-            Obtiene y devuelve el nombre y apellidos del trabajador
+            Obtiene y devuelve el nombre de pila del trabajador
             </summary>
-            <value>El nombre y apellidos</value>
+            <value>El nombre </value>
         </member>
-        <member name="P:Trabajador.documentacion.Trabajador.Edad">
+        <member name="P:Trabajador.Trabajador_Jubilacion.Apellido">
+            <summary>
+            Obtiene y devuelve los apellidos del trabajador
+            </summary>
+            <value>Los apellidos</value>
+        </member>
+        <member name="P:Trabajador.Trabajador_Jubilacion.Edad">
             <summary>
             Obtiene y devuelve la edad del trabajador.
             La edad debe estar entre 1 y 150
             </summary>
             <value>Edad del trabajador</value>
         </member>
-        <member name="M:Trabajador.documentacion.Trabajador.CalculoAnyosJubilacion">
+        <member name="M:Trabajador.Trabajador_Jubilacion.CalculoAnyosJubilacion">
             <summary>
             Calcula los años que le quedan al trabajador para su jubilación
             </summary>
             <remarks>Este método usa sobrecarga</remarks>
             <returns>Los años que le quedan al trabajador para su jubilación</returns>
         </member>
-        <member name="M:Trabajador.documentacion.Trabajador.CalculoAnyosJubilacion(System.Int32)">
+        <member name="M:Trabajador.Trabajador_Jubilacion.CalculoAnyosJubilacion(System.Int32)">
             <summary>
             <para>Calcula los años que le quedan al trabajador para su jubilación. </para>
-            <para>El valor del parámetro <paramref name="edadJubilacion"/> debe ser menor que <see cref="F:Trabajador.documentacion.Trabajador.EdadJubilacionDefecto"/> y mayor o
+            <para>El valor del parámetro <paramref name="edadJubilacion"/> debe ser menor que <see cref="F:Trabajador.Trabajador_Jubilacion.EdadJubilacionDefecto"/> y mayor o
             igual que la edad del trabajador</para>
             </summary>
             <remarks>Este método usa sobrecarga</remarks>

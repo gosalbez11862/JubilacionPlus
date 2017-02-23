@@ -18,24 +18,27 @@ namespace Trabajador
         {
             InitializeComponent();
         }
-        Trabajador PrimerTrabajador = new Trabajador();
+        Trabajador_Jubilacion PrimerTrabajador = new Trabajador_Jubilacion();
 
         private void BCrear_Click(object sender, EventArgs e)
         {
-            PrimerTrabajador.Nombre = TName.Text;
+            PrimerTrabajador.Nombre = TNombre.Text;
+            PrimerTrabajador.Apellido = TApellido.Text;
             PrimerTrabajador.Edad = int.Parse(TupDownEdad.Text);
         }
 
         private void BJubilacion_Click(object sender, EventArgs e)
         {
-            string DatosTrabajador = FNombreEdadJubliacion(PrimerTrabajador.Nombre, PrimerTrabajador.Edad, PrimerTrabajador.CalculoAnyosJubilacion());
+            string DatosTrabajador = FNombreEdadJubilacion(PrimerTrabajador.Nombre, PrimerTrabajador.Apellido, PrimerTrabajador.Edad, PrimerTrabajador.CalculoAnyosJubilacion());
+            MessageBox.Show(DatosTrabajador);
         }
 
-        string FNombreEdadJubliacion(string nombre, int edad, int jubilacion)
+        string FNombreEdadJubilacion(string nombre, string apellido, int edad, int jubilacion)
         {
             string DatosTrabajador ="";
 
             DatosTrabajador += "Nombre: " + nombre + "\n\n";
+            DatosTrabajador += "Apellidos: " + apellido + "\n\n";
             DatosTrabajador += "Edad: " + edad + "\n\n";
             DatosTrabajador += "Años para jubilarse: " + jubilacion + "\n\n";
 

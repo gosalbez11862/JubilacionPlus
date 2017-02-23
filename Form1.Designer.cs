@@ -30,17 +30,19 @@
         {
             this.BCrear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.TName = new System.Windows.Forms.TextBox();
+            this.TNombre = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.BJubilacion = new System.Windows.Forms.Button();
             this.TupDownEdad = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TApellido = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.TupDownEdad)).BeginInit();
             this.SuspendLayout();
             // 
             // BCrear
             // 
             this.BCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BCrear.Location = new System.Drawing.Point(205, 88);
+            this.BCrear.Location = new System.Drawing.Point(482, 18);
             this.BCrear.Name = "BCrear";
             this.BCrear.Size = new System.Drawing.Size(82, 38);
             this.BCrear.TabIndex = 0;
@@ -54,23 +56,23 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(13, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 24);
+            this.label1.Size = new System.Drawing.Size(79, 24);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Nombre y Apellidos";
+            this.label1.Text = "Nombre";
             // 
-            // TName
+            // TNombre
             // 
-            this.TName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TName.Location = new System.Drawing.Point(205, 29);
-            this.TName.Name = "TName";
-            this.TName.Size = new System.Drawing.Size(208, 29);
-            this.TName.TabIndex = 2;
+            this.TNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TNombre.Location = new System.Drawing.Point(107, 27);
+            this.TNombre.Name = "TNombre";
+            this.TNombre.Size = new System.Drawing.Size(208, 29);
+            this.TNombre.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 90);
+            this.label2.Location = new System.Drawing.Point(13, 134);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 24);
             this.label2.TabIndex = 3;
@@ -79,7 +81,7 @@
             // BJubilacion
             // 
             this.BJubilacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BJubilacion.Location = new System.Drawing.Point(299, 88);
+            this.BJubilacion.Location = new System.Drawing.Point(450, 74);
             this.BJubilacion.Name = "BJubilacion";
             this.BJubilacion.Size = new System.Drawing.Size(114, 38);
             this.BJubilacion.TabIndex = 5;
@@ -89,20 +91,40 @@
             // 
             // TupDownEdad
             // 
-            this.TupDownEdad.Location = new System.Drawing.Point(91, 94);
+            this.TupDownEdad.Location = new System.Drawing.Point(74, 138);
             this.TupDownEdad.Name = "TupDownEdad";
             this.TupDownEdad.Size = new System.Drawing.Size(67, 20);
             this.TupDownEdad.TabIndex = 6;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(13, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(88, 24);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Apellidos";
+            // 
+            // TApellido
+            // 
+            this.TApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TApellido.Location = new System.Drawing.Point(107, 83);
+            this.TApellido.Name = "TApellido";
+            this.TApellido.Size = new System.Drawing.Size(208, 29);
+            this.TApellido.TabIndex = 8;
             // 
             // Trabajador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(436, 164);
+            this.ClientSize = new System.Drawing.Size(576, 196);
+            this.Controls.Add(this.TApellido);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.TupDownEdad);
             this.Controls.Add(this.BJubilacion);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.TName);
+            this.Controls.Add(this.TNombre);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BCrear);
             this.Name = "Trabajador";
@@ -117,10 +139,12 @@
 
         private System.Windows.Forms.Button BCrear;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox TName;
+        private System.Windows.Forms.TextBox TNombre;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BJubilacion;
         private System.Windows.Forms.NumericUpDown TupDownEdad;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox TApellido;
     }
 }
 

@@ -6,15 +6,18 @@ namespace Trabajador
     /// <para>Los trabajadores pueden ser de las siguiente secciones:
     /// <list type="bullet">
     ///     <item>
-    ///         <description>Crear</description>
+    ///         <description>Marketing</description>
     ///     </item>
     ///     <item>
-    ///         <description>Jubilacion</description>
+    ///         <description>Ventas</description>
+    ///     </item>
+    ///     <item>
+    ///         <description>Logística</description>
     ///     </item>
     /// </list>
     /// </para>
     /// </summary>
-    public class Trabajador
+    public class Trabajador_Jubilacion
     {
         /// <summary>
         /// Edad por defecto de jubilación del trabajador
@@ -22,7 +25,7 @@ namespace Trabajador
         private const int EdadJubilacionDefecto = 67;
 
         /// <summary>
-        /// Nombre y apellidos del trabajador
+        /// Nombre del trabajador
         /// </summary>
         private string nombre;
 
@@ -37,7 +40,7 @@ namespace Trabajador
         private int edad;
 
         /// <summary>
-        /// Obtiene y devuelve el nombre del trabajador
+        /// Obtiene y devuelve el nombre de pila del trabajador
         /// </summary>
         /// <value>El nombre </value>
         public string Nombre
@@ -47,9 +50,9 @@ namespace Trabajador
         }
 
         /// <summary>
-        /// Obtiene y devuelve el apellidos del trabajador
+        /// Obtiene y devuelve los apellidos del trabajador
         /// </summary>
-        /// <value>El apellidos</value>
+        /// <value>Los apellidos</value>
         public string Apellido
         {
             get { return apellido; }

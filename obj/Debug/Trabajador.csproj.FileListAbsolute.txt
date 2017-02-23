@@ -28,3 +28,13 @@ C:\Users\yo\Documents\GIT\JubilacionPlus\bin\Debug\Trabajador.exe.config
 C:\Users\yo\Documents\GIT\JubilacionPlus\bin\Debug\Trabajador.XML
 C:\Users\yo\Documents\GIT\JubilacionPlus\obj\Debug\Trabajador.exe
 C:\Users\yo\Documents\GIT\JubilacionPlus\obj\Debug\Trabajador.pdb
+C:\Entornos de Desarrollo\JubilacionPlus\bin\Debug\Trabajador.exe.config
+C:\Entornos de Desarrollo\JubilacionPlus\bin\Debug\Trabajador.XML
+C:\Entornos de Desarrollo\JubilacionPlus\obj\Debug\Trabajador.exe
+C:\Entornos de Desarrollo\JubilacionPlus\obj\Debug\Trabajador.pdb
+C:\Entornos de Desarrollo\JubilacionPlus\obj\Debug\Trabajador.csprojResolveAssemblyReference.cache
+C:\Entornos de Desarrollo\JubilacionPlus\obj\Debug\Trabajador.Trabajador.resources
+C:\Entornos de Desarrollo\JubilacionPlus\obj\Debug\Trabajador.Properties.Resources.resources
+C:\Entornos de Desarrollo\JubilacionPlus\obj\Debug\Trabajador.csproj.GenerateResource.Cache
+C:\Entornos de Desarrollo\JubilacionPlus\bin\Debug\Trabajador.exe
+C:\Entornos de Desarrollo\JubilacionPlus\bin\Debug\Trabajador.pdb
