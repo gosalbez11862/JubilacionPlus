@@ -36,6 +36,7 @@
             this.TupDownEdad = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.TApellido = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.TupDownEdad)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,11 +115,24 @@
             this.TApellido.Size = new System.Drawing.Size(208, 29);
             this.TApellido.TabIndex = 8;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(242, 143);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(122, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Está correcto. JLGO";
+            // 
             // Trabajador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(576, 196);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.TApellido);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TupDownEdad);
@@ -145,6 +159,7 @@
         private System.Windows.Forms.NumericUpDown TupDownEdad;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TApellido;
+        private System.Windows.Forms.Label label4;
     }
 }
 

@@ -38,3 +38,7 @@ C:\Entornos de Desarrollo\JubilacionPlus\obj\Debug\Trabajador.Properties.Resourc
 C:\Entornos de Desarrollo\JubilacionPlus\obj\Debug\Trabajador.csproj.GenerateResource.Cache
 C:\Entornos de Desarrollo\JubilacionPlus\bin\Debug\Trabajador.exe
 C:\Entornos de Desarrollo\JubilacionPlus\bin\Debug\Trabajador.pdb
+C:\Users\Jose\Desktop\repo\JubilacionPlus\JubilacionPlus\bin\Debug\Trabajador.exe.config
+C:\Users\Jose\Desktop\repo\JubilacionPlus\JubilacionPlus\bin\Debug\Trabajador.XML
+C:\Users\Jose\Desktop\repo\JubilacionPlus\JubilacionPlus\obj\Debug\Trabajador.exe
+C:\Users\Jose\Desktop\repo\JubilacionPlus\JubilacionPlus\obj\Debug\Trabajador.pdb
