@@ -43,7 +43,7 @@
             // BCrear
             // 
             this.BCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BCrear.Location = new System.Drawing.Point(482, 18);
+            this.BCrear.Location = new System.Drawing.Point(233, 74);
             this.BCrear.Name = "BCrear";
             this.BCrear.Size = new System.Drawing.Size(82, 38);
             this.BCrear.TabIndex = 0;
@@ -73,7 +73,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 134);
+            this.label2.Location = new System.Drawing.Point(37, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 24);
             this.label2.TabIndex = 3;
@@ -82,7 +82,7 @@
             // BJubilacion
             // 
             this.BJubilacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BJubilacion.Location = new System.Drawing.Point(450, 74);
+            this.BJubilacion.Location = new System.Drawing.Point(533, 76);
             this.BJubilacion.Name = "BJubilacion";
             this.BJubilacion.Size = new System.Drawing.Size(114, 38);
             this.BJubilacion.TabIndex = 5;
@@ -92,7 +92,7 @@
             // 
             // TupDownEdad
             // 
-            this.TupDownEdad.Location = new System.Drawing.Point(74, 138);
+            this.TupDownEdad.Location = new System.Drawing.Point(98, 87);
             this.TupDownEdad.Name = "TupDownEdad";
             this.TupDownEdad.Size = new System.Drawing.Size(67, 20);
             this.TupDownEdad.TabIndex = 6;
@@ -101,7 +101,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 88);
+            this.label3.Location = new System.Drawing.Point(345, 32);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 24);
             this.label3.TabIndex = 7;
@@ -110,7 +110,7 @@
             // TApellido
             // 
             this.TApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TApellido.Location = new System.Drawing.Point(107, 83);
+            this.TApellido.Location = new System.Drawing.Point(439, 27);
             this.TApellido.Name = "TApellido";
             this.TApellido.Size = new System.Drawing.Size(208, 29);
             this.TApellido.TabIndex = 8;
@@ -121,7 +121,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(242, 143);
+            this.label4.Location = new System.Drawing.Point(346, 101);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(122, 13);
             this.label4.TabIndex = 9;
@@ -131,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(576, 196);
+            this.ClientSize = new System.Drawing.Size(668, 139);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.TApellido);
             this.Controls.Add(this.label3);
